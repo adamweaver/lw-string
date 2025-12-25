@@ -7,10 +7,8 @@
   (:export "VOWELP" "PLURALISE-WORD" "FORMAT-PHONE-NUMBER" "NORMALISE-PHONE-NUMBER" "FORMAT-ABN" "MAKE-ABN" 
            "MAKE-PHONE-NUMBER" "MAKE-EMAIL-ADDRESS"))
 
-(defpackage :string
+(defpackage :utils
   (:use :cl)
-  (:export "case*" "strcat" "strcat-adjacent" "join" "left-pad" "urlify" "random-alpha-ascii-string" "starts-with" "ends-with" "&" "&&" "match"
-           "compose" "partial" "partial*" "reverse-c-byte-order" "group*" "flatten" "intersperse" "mklist" "uncons" "nsubseq")
-
-
+  (:export "CASE*" "STRCAT" "STRCAT-ADJACENT" "JOIN" "LEFT-PAD" "URLIFY" "RANDOM-ALPHA-ASCII-STRING" "STARTS-WITH" "ENDS-WITH" "&" "&&" "MATCH"
+           "COMPOSE" "PARTIAL" "PARTIAL*" "REVERSE-C-BYTE-ORDER" "GROUP*" "FLATTEN" "INTERSPERSE" "MKLIST" "UNCONS" "NSUBSEQ"))
 
